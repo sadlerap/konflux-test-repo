@@ -30,6 +30,8 @@ spec:
   - name: build-platforms
     value:
     - linux/x86_64
+    - linux-root/amd64
+    - linux-root/arm64
   - name: dockerfile
     value: Dockerfile
   pipelineSpec:
